@@ -1,5 +1,5 @@
-def test_cum():
-    assert count_answers("share/d06-e01-test") == 11
+def test_sum():
+    assert count_answers("share/d06e01-test") == 11
 
 
 def count_answers(test):
@@ -16,5 +16,5 @@ def count_answers(test):
 
 
 if __name__ == "__main__":
-    test_cum()
-    print(count_answers("share/d06-e01-input"))
+    test_sum()
+    print(count_answers("share/d06e01-input"))
