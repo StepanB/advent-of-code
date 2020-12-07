@@ -71,8 +71,6 @@ for line in input:
     min = get_min(min, seat_id)
 
 
-
-
 print("\n\nCurrent max {}".format(max))
 print("Current min {}".format(min))
 print(seats) # 619
